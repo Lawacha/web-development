@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.side-bar{
+ height: 80vh;
+ background-color: wheat;
+ display: flex;
+ flex-wrap: wrap;
+}
+.main-content{
+  
+    background-color: rgb(74, 134, 134);
+}
+.last-content{
+    height: ;
+}
+.nav{
+    width: 1600px;;
+    height: 118.8px;
+    background-color: #f85606;
+    display: flex;
+    align-items: center;
+    
+}
+.nav-logo{
+    position: fixed;
+    left: 12rem;
+    top: 2.5rem;
+}
+.nav-logo img{
+    width: 127px;
+    height: 40px;
+}
+.nav-input{
+    position: fixed;
+     left: 23rem; 
+     display: flex;
+     align-items: flex-end;
+}
+.nav-input input{
+    width: 688px;
+    height: 44px;
+    border: none;
+    border-radius: 0.2rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.nav-icon{
+    width: 44px;
+    height: 44px;
+    background-color: pink;
+    border: none;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+.search{
+    font-size: 20px;
+    color: rgb(185, 95, 110);
+}
+.cart{
+    color: white;
+   font-size: 20px;
+   margin-left: 25px;
+}
+.nav-links{
+    position: fixed;
+    top: 2px;
+    right: 128px;
+  
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    padding: 0 17px;
+    font-size: 12px;
+    
+}
+.bill-board{
+    width: 100%;
+    height:500px ;
+}
+.bill-images{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.bill-image{
+    width: 400px;
+    height: 400px
+}
