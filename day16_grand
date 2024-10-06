@@ -1,0 +1,37 @@
+// //question one
+// let num=[7,9,0,-2];
+// console.log(num);
+// let ans=num.splice(0,3);
+// console.log(ans);
+ 
+// //question two
+// let m=[7,9,0,-2];
+// let two=m.splice(1);
+// console.log(two);
+
+// //question three
+// let str=prompt("enter a string");
+// if (str==""){
+//     console.log("it is blank");
+// }
+// else
+//    {console.log("not blank");} 
+
+//question four
+// let low=str.toLowerCase();
+// if(str==low)
+// {
+//     console.log("it is lowercase");
+// }
+// else{
+//     console.log("not lowercase");
+// }
+
+//question five
+let string="     kdjfkdjf kdjfkdjfkj    ";
+console.log(`before trim: '${string}'`);
+let ara=string.trim();
+console.log("after trim:",ara);
+
+//question six
+let six=[3,4,5,6,7];
