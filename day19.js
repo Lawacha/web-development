@@ -17,8 +17,7 @@ let str="abcdabcdefggh";
 
 //question three
 let country=["australia","germany","united states of america"];
-console.log(country.length);
-function findGreat(country){
+function findGreatcountry(country){
     for(let i=0;i<country.length;i++){
         let a=[];
         a[i]=country[i].length;
@@ -28,4 +27,31 @@ function findGreat(country){
         }
     }
 }
-findGreat(country);
+findGreatcountry(country);
+
+//question no four
+// let strin="aeiou";
+// let count=0;
+// function countVowels(strin){
+//     for(let i=0;i<strin.length;i++)
+//     {
+//         if(strin[i]=="a"||strin[i]=="e"||strin[i]=="i"||strin[i]=="o"||strin[i]=="u")
+//     {
+//         count++;
+//     }
+//         }
+//         return  count;
+// }
+// let v=countVowels(strin);
+// console.log(v);
+
+//question five
+// let start=10;
+// let end=11;
+// function generateRandom(start,end){
+//     let diff=end-start+1;
+// let random=Math.floor(Math.random()*diff+1)+start;
+// return random;
+// }
+// console.log(generateRandom(start,end));
+
