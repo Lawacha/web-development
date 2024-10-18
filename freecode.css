@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header{
+
+}
+#navbar-top{
+    height: 40px;
+    background-color: white;
+    padding-left: 10px;
+   display: flex;
+
+}
+.sign-save{
+    width: 146px;
+    height: 18px;
+    background-color: #140a47;
+    color: white;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+#nav-bar{
+    width: 100%;
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    right: 0;
+    font-size: 12px;
+    color: #1b1b1b;
+    padding: 0px 5px 0 7px;
+    border: none;
+}
+.icon{width: 60px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #140a47;
+    text-align: center;
+    padding-top: 5px;
+    margin-left: 10px;
+    
+}
+.icon i{
+    color: white;
+    font-size: 15px;
+}
+#main-nav{
+    height: 120px;
+    background-color: #001489;
+    display: flex;
+    align-items: center;
+}
+#header-img img{
+   padding: 20px;
+   
+}
+#header-img{
+    padding: 0 15px;
+}
+#form-div input{
+    width: 29rem;
+    height: 2.3rem;
+    border-radius: 5px;
+}
+#form-div{
+  margin-left: 60px;
+}
+#sec-nav{
+    height: 35px;
+    background-color: #140a47;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+.sec-link{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+#space{
+    height: 10px;
+    border-top: 3px solid black;
+}
+#main-pic{
+    background-color: #140a47;
+    display: flex;
+}
