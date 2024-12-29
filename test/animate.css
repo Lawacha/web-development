@@ -1,0 +1,20 @@
+.loader{
+    background: transparent;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+   
+    border: 10px solid rgb(211, 211, 211);
+    border-top: 10px solid gold;
+    border-radius: 50%;
+   
+    animation:animate 2s ease-in infinite;
+}
+@keyframes animate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

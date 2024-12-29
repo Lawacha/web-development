@@ -1,0 +1,15 @@
+.red{
+    color: red;
+}
+.div{
+    background-color: pink;
+    border: 2px solid black;
+}
+#btn{
+    background-color: blue;
+    color: white;
+}
+.hI{
+    text-decoration: underline wavy black;
+    color: purple;
+}
